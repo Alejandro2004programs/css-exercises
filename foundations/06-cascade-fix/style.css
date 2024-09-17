@@ -8,16 +8,22 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+/* .small-para {
   font-size: 14px;
   font-weight: 800;
-}
+} */
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* changed this to now use an id instead of class */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,14 +35,33 @@ body {
   font-size: 20px;
 }
 
+
+/* .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+} */
+
+/* div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+} */
+
+/* For this last part, I had to remove the div.text 
+because that made it very specific to the nested elements.
+
+Then, putting .child after .text because they had the same specificity.
+*/
+
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
-}
-
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
 }
