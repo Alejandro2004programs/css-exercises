@@ -55,7 +55,7 @@ a {
 
 .footer {
   background-color: #eeeeee;
-  margin-bottom: 0;
+  margin-top: auto;
 }
 
 .content {
@@ -64,6 +64,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px; 
+  flex: 1;
 
 }
 
