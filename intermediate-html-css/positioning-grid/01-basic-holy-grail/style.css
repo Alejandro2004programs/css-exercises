@@ -58,8 +58,6 @@ html {
   row-gap: 15px;
 }
 
-/* Comment for when I come back to keep working on this. change the number of columns and rows.  */
-
 .header {
   grid-column: 1 / 3;
   grid-row: 1 / 2;
@@ -84,4 +82,3 @@ html {
   grid-column: 1 / 3;
   grid-row: 4 / 5;
 }
-
